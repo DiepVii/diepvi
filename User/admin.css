@@ -1,0 +1,209 @@
+body{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color:#ededed;
+}
+.header{
+   height: 10%; 
+   display: flex;
+}
+.right{
+    width: 82%;
+    background-color: white;
+}
+.name{
+    background-color: brown;
+    display: flex;
+    width: 18%;
+    text-align: center;
+    color: white;
+    background-color:#da6a5e;
+}
+.name img{
+    height: 50%;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 17%;
+}
+.father{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    
+}
+.menu{
+ 
+    width: 18%;
+    padding-top: 1%;
+    background-color: #333333;
+    min-height: 100%;
+
+}
+
+.sidebar{
+ 
+    padding-top: 5%;
+    transition: 0.3s;
+}
+.sidebar span{
+    margin-left: 8%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #B8b8b8;
+    
+    
+}
+.sidebar:hover{
+    background-color: #575757;
+    margin-left: 5%;
+    
+
+}
+.sidebar span:hover{
+    color:rgb(194, 66, 66);
+
+}
+
+.inf{
+    width: 82%;
+    background-color: #ededed;
+
+  
+}
+table{
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom:3% ;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid rgb(143, 85, 85);
+    text-align: center;
+}
+td span{
+    color:grey;
+}
+.list_product{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 4px solid rgb(112, 209, 204);
+    border-radius: 10px;
+    width: 90%;
+
+}
+.list_product h3{
+   text-align: center;
+   font-size: 25px;
+    color: rgb(228, 48, 78);
+}
+table img{
+   
+   width: 40%;
+
+}
+.list_product a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(202, 106, 89);
+    font-size: 17px;
+
+    
+
+}
+.list_product a:hover{
+    color: rgb(80, 71, 206);
+}
+.list_product .table_hanghoa td {
+    width: 15%;
+}
+.list_product table th{
+    background-color: rgba(82, 96, 102, 0.445);
+    color: white;
+}
+.them{
+    text-align: center  ;
+    margin-left: 80%;
+     font-size: 17px;
+     color: rgb(34, 22, 22);
+
+}
+.table_donhang td{
+    width: 10%;
+}
+.login{
+    height:53px;
+    width:355px;  
+    margin-bottom:16px;
+    padding-left:0.3cm;
+    box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius:4px;
+font-size: 15px;
+background-color: white;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+transition: width 0.4s ease-in-out;
+outline: none;
+color: #757171;
+
+}
+
+
+#submit{
+    height:53px;
+    width:355px;  
+    margin-bottom:16px;
+    padding-left:0.3cm;
+    box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius:15px;
+font-size: 15px;
+background-color: #F79F8E;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+transition: 0.2s;
+outline: none;
+color:white;
+cursor:pointer;
+}
+.infor{
+   
+    width:456px;
+    background-color:white;
+    margin-left:32%;
+    text-align: center;
+    line-height:30px;
+    margin-top:40px;
+    padding-top:30px;
+    margin-bottom:40px;
+    padding-bottom: 1%;
+}
+.login:focus{
+    border: 2px solid rgb(199, 77, 77);
+}
+#submit:hover{
+    
+    background-color: #ce6b57;
+   box-shadow: 5px 5px 5px 1px rgb(185, 184, 184);
+}
+.infor h3{
+    color:#333333;
+    font-size:25px;
+    margin-bottom:48px;
+}
+.infor p{
+    margin-left: 0.3cm;
+    color:#333333;
+}
+.sum_money{
+           font-size: 20px;
+           text-align: center;
+           color: rgb(97, 105, 109);
+}

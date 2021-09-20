@@ -1,0 +1,432 @@
+
+
+body {
+    margin: 0;
+    background-color: #F3F3F3;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+hr {
+    border-top: 1px solid rgb(187, 121, 137);
+}
+
+
+
+#kinh {
+    border: 2px solid #ccc;
+    background-color: pink;
+}
+
+#id1 {
+    text-align: right;
+    background-color: #F8F8F8;
+    line-height: 30px;
+    padding-right: 7%;
+}
+#id1 a{
+    text-decoration: none;
+    color: #816767;
+}
+#id1 a:hover{
+    color: rgb(214, 51, 51);
+}
+
+.div1{
+    display: flex;
+    
+    height: 17%;
+    width: 100%;
+    background-color: white ;
+    margin:0%;
+
+}
+.search{
+    display: flex;
+    height: 100%;
+  
+}
+#kinh{
+    margin-left: -1%;
+    width: 6%;
+    cursor: pointer;
+}
+.search button img{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+.div2{
+ 
+    width: 50%;
+    height: 30%;
+    margin-left:10.5% ;
+    margin-top: 3%;
+
+
+}
+.div2 img{
+    height: 100%;
+    width: 5%;
+    box-sizing: border-box;
+    
+
+    font-size: 16px;
+    background-color: white;
+    outline: none;
+}
+
+.div2 input{
+        height: 100%;
+        width: 75%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        transition: width 0.4s ease-in-out;
+        outline: none;
+}
+.div2 input:focus{
+    border: 2px solid rgb(84, 140, 185);
+}
+#img1{
+    height: 95%;
+    width: 70%;
+    margin-left: 25%;
+    
+}
+#img2{
+    height: 100%;
+    margin-left: 0%;
+    width: 15%;
+}
+
+.divcuoi{
+    position: relative;
+    margin-top: 0.6cm;
+    
+    width: 100%;
+    background-color: #FFEFF0;
+    display: flex ;
+    color: rgb(77, 77, 114) ;
+    padding-bottom: 1%;
+}
+.logo #input1{
+    width: 50%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px ;
+    font-size: 14px;
+    outline: none;
+}
+#input1:hover{
+    border: 2px solid rgb(199, 77, 77);
+}
+.logo #input2{
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px ;
+    font-size: 14px;
+    
+}
+.logo img{
+    position: absolute;
+    height: 160px;
+    width: 230px;
+    top:1%;
+    left: 41%;
+}
+.logo{
+    margin-top:150px ;
+    margin-left: 90px;
+    width: 25%;
+    line-height: 25px;
+}
+.nhanxet{
+    display: flex;
+}
+#gui p{
+    margin-top: 7px;
+}
+#gui{
+    border: 1px solid rgb(236, 122, 56);
+    border-radius: 4px;
+    background-color: rgb(97, 109, 146);
+    font-size: 18px;
+    color: rgb(250, 239, 239);
+    height: 38px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.part ul{
+    list-style: none;
+}
+.part li{
+    margin-top: 0px;
+    margin-left: -40px;
+}
+.part{
+   margin-top: 150px;
+   margin-left: 15px;
+   width: 20%;
+   line-height: 35px;
+}
+#part{
+    margin-right: 100px;
+}
+.vanchuyen >img{
+    width: 100px;
+    height: 45px;
+    
+}
+.ketnoi     img{
+    width: 54px; 
+    height: 33px;
+}
+.app img{
+    width: 160px;
+    height: 45px;
+}
+.diepvishop{
+    margin-top: -0.5%;
+    height: 10%;
+    color: rgb(77, 77, 114) ;
+    text-align: center;
+    background-color:  #FFEFF0;
+}
+.diepvishop hr{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.lastdiv{
+    height: 30%;
+    text-align: center  ;
+}
+.anh{
+    margin-left: 50px;
+}
+.congthuong{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 30%;
+
+}
+
+.dangnhap{
+    height:430px;
+    width:456px;
+    background-color:white;
+    margin-left:32%;
+    text-align:center;
+    line-height:30px;
+    margin-top:40px;
+    padding-top:30px;
+    margin-bottom:40px;
+    
+}
+.dangki{
+    height:500px;
+    width:456px;
+    background-color:white;
+    margin-left:32%;
+    text-align:center;
+    line-height:30px;
+    margin-top:40px;
+    padding-top:30px;
+    margin-bottom:40px;
+    
+}
+.infor{
+   
+    width:456px;
+    background-color:white;
+    margin-left:32%;
+    text-align:center;
+    line-height:30px;
+    margin-top:40px;
+    padding-top:30px;
+    margin-bottom:40px;
+    padding-bottom: 1%;
+}
+.infor input :focus{
+    border: 2px solid rgb(199, 77, 77);
+}
+.dangnhap h3,.dangki h3,.infor h3{
+    color:#333333;
+    font-size:25px;
+    margin-bottom:48px;
+}
+.login{
+        height:53px;
+        width:355px;  
+        margin-bottom:16px;
+        padding-left:0.3cm;
+        box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius:4px;
+    font-size: 15px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+    
+}
+
+
+#submit{
+        height:53px;
+        width:355px;  
+        margin-bottom:16px;
+        padding-left:0.3cm;
+        box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius:15px;
+    font-size: 15px;
+    background-color: #F79F8E;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+    color:white;
+    cursor:pointer;
+}
+
+.dangnhap a,.dangki a{
+    text-decoration:none;
+    color:#F79F8E;
+}
+
+.hoac{
+    display:flex;
+    color:red;
+}
+.detail a{
+    text-decoration: none;
+    color:#F79F8E;
+    
+}
+.detail a:hover{
+   color: rgb(39, 117, 189);
+}
+.detail ul{
+    list-style: none;
+}
+.detail ul li{
+    margin-top: 5%;
+}
+.detail{
+    display: flex;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    background-color: white;
+    color:#777777;
+    
+
+}
+.supchitiet{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    color:#777777;
+    height: 50%;
+    padding-top: 1.5%;
+    padding-bottom: 4%;
+
+
+}
+.supchitiet h3{
+    text-align: center;
+}
+.supchitiet img{
+    width: 30%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.package{
+    display: flex;
+}
+.package_right{
+    margin-left: 5%;
+    margin-right: 10%;
+
+    
+}
+
+.supchitiet a{
+    text-decoration: none;
+    color:#F79F8E;
+    
+}
+.supchitiet a:hover{
+    color: rgb(39, 117, 189);
+ }
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+    height: 90%;
+}
+.inf{
+    padding-left: 2%;
+    margin-right: 5%;
+    width: 50%;
+    padding-bottom: 3%;
+}
+.inf span{
+    color: #F79F8E;
+}
+.pay{
+    display: flex;
+}
+
+#soluong{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius:15px;
+    font-size: 15px;
+    outline: none;
+    height: 6%;
+    width: 30%;
+    text-align: center;
+}
+
+#soluong:focus{
+        border: 2px solid rgb(199, 77, 77);
+}
+#thanhtoan{
+    background-color: #585586;
+    width: 45%;
+    height: 42px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius:4px;
+    outline: none; 
+    transition: all 0.2s;
+    font-weight: bold   ;
+}
+#thanhtoan:hover{
+    margin-top: -2px;
+    margin-bottom: 2px;
+    box-shadow: 0 5px 5px 1px rgb(185, 184, 184);
+    
+
+}
+
+
+
+
